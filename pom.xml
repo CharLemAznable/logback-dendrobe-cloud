@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.charlemaznable</groupId>
+        <artifactId>char-dependencies</artifactId>
+        <version>0.0.5-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>logback-miner-cloud-extension</artifactId>
+    <version>0.0.5-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Logback Miner Cloud Extension</name>
+    <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
+    <description>Spring Cloud Extension of Logback Diamond Miner Extension Module.</description>
+
+    <scm>
+        <connection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git</connection>
+        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git
+        </developerConnection>
+        <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
+    </scm>
+
+    <properties>
+        <gentle-factory.version>0.0.5-SNAPSHOT</gentle-factory.version>
+        <spring-cloud.version>2021.0.0</spring-cloud.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>gentle-factory</artifactId>
+            <version>${gentle-factory.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
