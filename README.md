@@ -10,7 +10,13 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 
 ##### Maven Dependency
 
-待发布.
+```xml
+<dependency>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>logback-miner-cloud-extension</artifactId>
+  <version>0.0.5</version>
+</dependency>
+```
 
 ##### Maven Dependency SNAPSHOT
 
@@ -18,6 +24,6 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-miner-cloud-extension</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.6-SNAPSHOT</version>
 </dependency>
 ```
