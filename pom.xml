@@ -20,8 +20,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git</connection>
-        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git
-        </developerConnection>
+        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git</developerConnection>
         <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
     </scm>
 
