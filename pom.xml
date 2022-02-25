@@ -25,6 +25,26 @@
         <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <properties>
         <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
         <spring-cloud.version>2021.0.0</spring-cloud.version>
