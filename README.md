@@ -1,29 +1,23 @@
-### logback-miner-cloud-extension
+### logback-dendrobe-cloud
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-miner-cloud-extension/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-miner-cloud-extension/)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-dendrobe-cloud/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/logback-dendrobe-cloud/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-![GitHub code size](https://img.shields.io/github/languages/code-size/CharLemAznable/logback-miner-cloud-extension)
+![GitHub code size](https://img.shields.io/github/languages/code-size/CharLemAznable/logback-dendrobe-cloud)
 
-Spring Cloud Extension of Logback Diamond Miner Extension Module.
+Spring Cloud Extension of Logback Dendrobe.
 
 Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cleanUp ```org.springframework.boot.logging.logback.LogbackLoggingSystem```, ```markAsUninitialized(LoggerContext)```.
 
 ##### Maven Dependency
 
-```xml
-<dependency>
-  <groupId>com.github.charlemaznable</groupId>
-  <artifactId>logback-miner-cloud-extension</artifactId>
-  <version>0.0.6</version>
-</dependency>
-```
+待发布.
 
 ##### Maven Dependency SNAPSHOT
 
 ```xml
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
-  <artifactId>logback-miner-cloud-extension</artifactId>
+  <artifactId>logback-dendrobe-cloud</artifactId>
   <version>0.0.7-SNAPSHOT</version>
 </dependency>
 ```

@@ -1,4 +1,4 @@
-package com.github.charlemaznable.logback.miner;
+package com.github.charlemaznable.logback.dendrobe;
 
 import ch.qos.logback.classic.LoggerContext;
 import com.github.charlemaznable.gentle.spring.factory.SpringFactory;
@@ -19,7 +19,7 @@ import java.security.CodeSource;
 import java.security.ProtectionDomain;
 
 @SpringFactory(ApplicationListener.class)
-public final class LogbackMinerReinitialListener
+public final class LogbackDendrobeReinitialListener
         implements ApplicationListener<ApplicationEnvironmentPreparedEvent>, Ordered {
 
     public static final int DEFAULT_ORDER = LoggingSystemShutdownListener.DEFAULT_ORDER + 1;

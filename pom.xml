@@ -10,18 +10,18 @@
         <version>0.0.7-SNAPSHOT</version>
     </parent>
 
-    <artifactId>logback-miner-cloud-extension</artifactId>
+    <artifactId>logback-dendrobe-cloud</artifactId>
     <version>0.0.7-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Logback Miner Cloud Extension</name>
-    <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
-    <description>Spring Cloud Extension of Logback Diamond Miner Extension Module.</description>
+    <name>Logback Dendrobe Spring Cloud Extension</name>
+    <url>https://github.com/CharLemAznable/logback-dendrobe-cloud</url>
+    <description>Spring Cloud Extension of Logback Dendrobe.</description>
 
     <scm>
-        <connection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git</connection>
-        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-miner-cloud-extension.git</developerConnection>
-        <url>https://github.com/CharLemAznable/logback-miner-cloud-extension</url>
+        <connection>scm:git:https://github.com/CharLemAznable/logback-dendrobe-cloud.git</connection>
+        <developerConnection>scm:git:https://github.com/CharLemAznable/logback-dendrobe-cloud.git</developerConnection>
+        <url>https://github.com/CharLemAznable/logback-dendrobe-cloud</url>
     </scm>
 
     <repositories>
