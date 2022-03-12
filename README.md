@@ -10,7 +10,13 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 
 ##### Maven Dependency
 
-待发布.
+```xml
+<dependency>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>logback-dendrobe-cloud</artifactId>
+  <version>0.0.7</version>
+</dependency>
+```
 
 ##### Maven Dependency SNAPSHOT
 
@@ -18,6 +24,6 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-cloud</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.8-SNAPSHOT</version>
 </dependency>
 ```
