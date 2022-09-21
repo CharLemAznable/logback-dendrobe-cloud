@@ -14,7 +14,7 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-cloud</artifactId>
-  <version>0.0.8</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 
@@ -24,6 +24,6 @@ Fixed ```org.springframework.cloud.bootstrap.LoggingSystemShutdownListener``` cl
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>logback-dendrobe-cloud</artifactId>
-  <version>0.0.9-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
 </dependency>
 ```
