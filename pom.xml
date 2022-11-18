@@ -46,7 +46,7 @@
 
     <properties>
         <gentle-factory.version>2022.0.1-SNAPSHOT</gentle-factory.version>
-        <spring-cloud.version>2021.0.4</spring-cloud.version>
+        <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
 
     <dependencies>
