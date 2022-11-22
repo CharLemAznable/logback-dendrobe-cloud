@@ -46,7 +46,6 @@
 
     <properties>
         <gentle-factory.version>2022.0.1-SNAPSHOT</gentle-factory.version>
-        <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -76,17 +75,5 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 </project>
