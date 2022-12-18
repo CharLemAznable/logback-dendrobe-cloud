@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
 import org.slf4j.ILoggerFactory;
-import org.slf4j.impl.StaticLoggerBinder;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
 import org.springframework.boot.logging.LoggingSystem;
 import org.springframework.cloud.bootstrap.LoggingSystemShutdownListener;
@@ -35,7 +35,7 @@ public final class LogbackDendrobeReinitialListener
     }
 
     private LoggerContext getLoggerContext() {
-        ILoggerFactory factory = StaticLoggerBinder.getSingleton().getLoggerFactory();
+        ILoggerFactory factory = LoggerFactory.getILoggerFactory();
         Assert.isInstanceOf(LoggerContext.class, factory, () -> String.format(
                 "LoggerFactory is not a Logback LoggerContext but Logback is on "
                         + "the classpath. Either remove Logback or the competing "
